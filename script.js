@@ -5,7 +5,7 @@ const sc = document.querySelector("#sc");
 
 setInterval(() => {
   let time = new Date(); //получаем текущее время
-  let hh = time.getHours() * 29.5; // угол поворота часовой стрелки
+  let hh = time.getHours() * 30; // угол поворота часовой стрелки
   let mm = time.getMinutes() * deg;
   let ss = time.getSeconds() * deg;
 

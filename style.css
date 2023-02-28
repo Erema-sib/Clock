@@ -14,8 +14,8 @@ body {
 }
 
 .clock {
-    width: 380px;
-    height: 380px;
+    width: 367px;
+    height: 367px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,9 +24,9 @@ body {
     radial-gradient(circle, rgb(139, 61, 184) 0%, rgb(109, 23, 144) 11%, rgb(25, 3, 36) 33%);
     background-size: cover;
     box-shadow: 0 -10px 15px rgba(134, 134, 134, 0.35),
-                inset 0 -15px 15px #191919,
+                inset 0 -5px 15px #191919,
                 0 10px 15px rgba(134, 134, 134, 0.35),
-                inset 0 -15px 15px #191919;
+                inset 0 -5px 15px #191919;
     border-radius: 50%;
 }
 
