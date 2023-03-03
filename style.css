@@ -9,7 +9,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* background: #091921; */
     background: rgb(25, 3, 36);
 }
 
@@ -28,6 +27,16 @@ body {
                 0 10px 15px rgba(134, 134, 134, 0.35),
                 inset 0 -5px 15px #191919;
     border-radius: 50%;
+    transition: all .9s ease;
+}
+
+.clock:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: 0 -10px 15px rgba(252, 62, 19, 0.3),
+                inset 0 -5px 15px #191919,               
+                0 10px 15px rgba(252, 62, 19, 0.3),
+                inset 0 -5px 15px #191919;
 }
 
 .clock::before {
@@ -73,7 +82,7 @@ body {
     position: absolute;
     width: 8px;
     height: 85px;
-    background: #ffc600;
+    background: #ff0000;
     z-index: 10;
     border-radius: 6px 6px 0 0;
 }
